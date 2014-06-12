@@ -1,0 +1,6 @@
+# system files
+.DS_Store
+
+# node dependencies and compiled directories
+nwapp/node_modules
+helloaddon/build

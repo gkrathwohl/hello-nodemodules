@@ -1,0 +1,23 @@
+{
+  "name": "nwapp",
+  "version": "0.0.0",
+  "description": "A test of our hello world addon using node webkit.",
+  "main": "index.html",
+  "window": {
+    "title": "nwapp",
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  },
+  "private": true,
+  "dependencies": {
+    "nodewebkit": "^0.8.6-3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodewebkit"
+  },
+  "author": "Nate Beatty <nate@irisvr.com>",
+  "license": "All Rights Reserved"
+}
